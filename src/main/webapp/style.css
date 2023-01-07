@@ -1,0 +1,175 @@
+@charset "UTF-8";
+body
+{
+	margin:0 ;
+	background-image:url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410_960_720.jpg");
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	font-family:helvetica;
+	margin-bottom:30px;
+	}
+	nav
+	{
+	background-color:orange;
+	font-size:35px ;
+	color:white ;
+	display:flex ;
+	justify-content:right ;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+	nav a
+	{
+	color:white;
+	padding-left:20px;
+	padding-right:20px;
+	}
+	nav a:hover{
+	color:black
+	}
+	.form-container{
+	background-color: #FEFCF3;
+	font-size:30px;
+	color:#B8390E;
+	width:45%;
+	display:flex;
+	justify-content:center;
+	margin-left:50%;
+	margin-top:8%;
+	border-radius:10px;
+	padding-bottom:20px;
+	}
+	.form-container input,button,textarea,select{
+	width:260px;
+	height:40px;
+	margin-top:5%;
+	margin-left:22%;
+	font-size:25px;
+	border-radius:20px;
+	background-color:#82AAE3;
+	}
+	
+	.form-container a{
+	margin-left:42%;
+	margin-top:25px;
+	color:#B8390E;
+	}
+	.form-container button,select{
+	cursor:pointer;
+	}
+	.form-container a:hover{
+	color:#009EFF;
+	}
+	.form-container input{
+	width:250px;
+	font-size:25px;
+	margin-top:5%;
+	margin-left:25%;
+	margin-bottom:5px;
+	border-radius:20px;
+	background-color:#82AAE3;
+	}
+	.form-container button{
+	color:#B8390E;
+	
+	}
+	
+	.form-container label{
+	margin-bottom:20px;
+	margin-left:39%;
+	}
+	.welcome-form{
+	padding-top:15px;
+	padding-bottom:8px;
+	margin-right:115px;
+	}
+	.form-container1{
+	background-color: #FEFCF3;
+	font-size:30px;
+	color:#B8390E;
+	width:45%;
+	display:flex;
+	justify-content:center;
+	margin-left:50%;
+	margin-top:8%;
+	border-radius:10px;
+	padding-bottom:20px;
+	}
+	
+	.form-container1 input,button,textarea{
+	height:40px;
+	margin-top:5%;
+	margin-left:20%;
+	font-size:25px;
+	border-radius:20px;
+	background-color:#82AAE3;
+	}
+	.form-container1 button{
+	margin-top:20px;
+	margin-left:25%;
+	margin-bottom:25px;
+	}
+	.form-container1 textarea{
+	margin-left:25%;
+	margin-bottom:35px;
+	}
+	.form-container1 label{
+	margin-bottom:20px;
+	margin-left:25%;
+	font-size:25px;
+	}
+	
+	.form-container1 input{
+	width:250px;
+	font-size:25px;
+	margin-top:5%;
+	margin-left:25%;
+	margin-bottom:35px;
+	border-radius:20px;
+	background-color:#82AAE3;
+	}
+	
+   .voting input,button,select{
+	margin-left:25%;
+	}
+	.voting label{
+	font-size:25px;
+	margin-right:40%;
+	}
+	.voting input{
+	margin-bottom:50px;
+	}
+	.voting select{
+	margin-bottom:40px;
+	}
+	.about-us{
+	font-family:Helvetica;
+	font-size:25px;
+	height:80vh;
+	width :100vx ;
+	padding-left:30px;
+	opacity:0.8;
+	background-color:#FEFCF3;
+}
+  .about-us p{
+	padding-top:40px;
+	font-weight:bold;
+    }
+.vote-check{
+	background-color:#FFF7E9;
+	height:99vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size: 25px;
+	color:#b8390e
+}
+.vote-check img {
+	height:85px;
+	width:85px;
+}
+.vote-check td ,th{
+	padding:10px 60px;
+}
+
+	
